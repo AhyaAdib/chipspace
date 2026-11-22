@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Simulation
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.ghw
+*.vvp
+sim_build/
+obj_dir/
+
+# FPGA generated files
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.Xil/
+*.bit
+*.bin
+*.ltx
+
+# ASIC / physical design generated files
+work/
+build/
+reports_tmp/
+*.tmp
+
+# Compiled artifacts
+*.o
+*.a
+*.so
+*.elf
+*.exe
+
+# Credentials
+.env
+*.pem
+*.key
+id_ed25519
+id_rsa
+
+# Temporary files
+tmp/
+temp/
